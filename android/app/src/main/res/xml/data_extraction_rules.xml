@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Nothing this app stores may leave the device through a backup.
+
+  The chunk queue can hold footage that has not reached Drive yet, the event
+  log is a chain-of-custody record, and the secure store holds the Drive
+  credential - none of which should be restorable onto a different phone by
+  whoever holds the account. Backup is disabled outright in the manifest;
+  these rules make the same statement explicit for cloud and device-transfer
+  paths.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="root" />
+        <exclude domain="file" />
+        <exclude domain="database" />
+        <exclude domain="sharedpref" />
+        <exclude domain="external" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="root" />
+        <exclude domain="file" />
+        <exclude domain="database" />
+        <exclude domain="sharedpref" />
+        <exclude domain="external" />
+    </device-transfer>
+</data-extraction-rules>

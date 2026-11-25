@@ -1,0 +1,252 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Witness"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "WitnessRecord"
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "comment" : "Privacy - Camera Usage Description",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness verwendet die Kamera, um Vorfälle als Videodokumentation aufzuzeichnen. Video wird nur erfasst, während du eine Aufnahme gestartet hast."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness uses the camera to record video documentation of encounters. Video is captured only while you have started a recording."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness usa la cámara para grabar documentación en video de los incidentes. El video se captura solo mientras has iniciado una grabación."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness utilise l'appareil photo pour enregistrer une documentation vidéo des incidents. La vidéo n'est capturée que lorsque vous avez démarré un enregistrement."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness usa la fotocamera per registrare documentazione video degli eventi. Il video viene catturato solo quando hai avviato una registrazione."
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription" : {
+      "comment" : "Privacy - Local Network Usage Description",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness findet die Handys deiner Crew in der Nähe, um die Crew-Liste zu teilen und die Uhren abzugleichen, damit alle Aufnahmen zusammenpassen. Nur solange der Crew-Bildschirm geöffnet ist."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness finds your crew's phones nearby to share the crew list and match clocks, so everyone's recordings line up. Only while the crew screen is open."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness encuentra los teléfonos de tu equipo cerca para compartir la lista y sincronizar los relojes, así las grabaciones de todos encajan. Solo mientras la pantalla del equipo está abierta."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness trouve les téléphones de votre équipe à proximité pour partager la liste et synchroniser les horloges, afin que les enregistrements de tous s'alignent. Uniquement quand l'écran de l'équipe est ouvert."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness trova i telefoni della tua crew qui vicino per condividere l'elenco della crew e allineare gli orologi, così le registrazioni di tutti combaciano. Solo mentre la schermata della crew è aperta."
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription" : {
+      "comment" : "Privacy - Location When In Use Usage Description",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dein Standort wird in die Metadaten jeder Aufnahme und das Beweiskettenprotokoll eingebettet, damit das Filmmaterial mit dem Aufnahmeort verknüpft werden kann."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your location is embedded in each recording's metadata and chain-of-custody log so footage can be tied to the place it was captured."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu ubicación se incluye en los metadatos de cada grabación y en el registro de cadena de custodia, para que las grabaciones puedan vincularse al lugar donde se capturaron."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre position est intégrée aux métadonnées de chaque enregistrement et au journal de la chaîne de possession, afin que les vidéos puissent être associées au lieu où elles ont été capturées."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La tua posizione viene inclusa nei metadati di ogni registrazione e nel registro della catena di custodia, così i filmati possono essere collegati al luogo in cui sono stati catturati."
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription" : {
+      "comment" : "Privacy - Microphone Usage Description",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness zeichnet Audio zusammen mit Video auf, damit deine Dokumentation das Gesagte enthält. Audio wird nur während einer aktiven Aufnahme erfasst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness records audio together with video so your documentation includes what was said. Audio is captured only during an active recording."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness graba audio junto con el video para que tu documentación incluya lo que se dijo. El audio se captura solo durante una grabación activa."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness enregistre l'audio avec la vidéo afin que votre documentation inclue ce qui a été dit. L'audio n'est capturé que pendant un enregistrement actif."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness registra l'audio insieme al video così la tua documentazione include ciò che è stato detto. L'audio viene catturato solo durante una registrazione attiva."
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryAddUsageDescription" : {
+      "comment" : "Privacy - Photo Library Additions Usage Description",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness speichert zusätzlich zum Upload in dein Google Drive eine Kopie jeder Aufnahme in deiner Fotomediathek, damit dein Filmmaterial auf dem Gerät erhalten bleibt, selbst wenn die App entfernt wird."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness saves a copy of each recording to your photo library so your footage is preserved on the device even if the app is removed, in addition to uploading to your Google Drive."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness guarda una copia de cada grabación en tu biblioteca de fotos, para que tus grabaciones se conserven en el dispositivo incluso si eliminas la app, además de subirse a tu Google Drive."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness enregistre une copie de chaque vidéo dans votre photothèque, afin qu'elle soit conservée sur l'appareil même si l'application est supprimée, en plus d'être envoyée vers votre Google Drive."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness salva una copia di ogni registrazione nella tua libreria foto, così i filmati restano sul dispositivo anche se l'app viene rimossa, oltre a essere caricati sul tuo Google Drive."
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryUsageDescription" : {
+      "comment" : "Privacy - Photo Library Usage Description",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness zeigt dir die Aufnahmen, die es in deiner Fotomediathek gesichert hat, damit du sie in der App ansehen kannst. Es braucht nur die Videos, die es gesichert hat."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness shows you the recordings it saved to your photo library, so you can watch them back in the app. It only needs the videos it saved."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness te muestra las grabaciones que guardó en tu fototeca para que puedas verlas en la app. Solo necesita los vídeos que guardó."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness vous montre les enregistrements qu'il a placés dans votre photothèque, pour les revoir dans l'app. Il n'a besoin que des vidéos qu'il a enregistrées."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Witness ti mostra le registrazioni salvate nella tua libreria foto, così puoi rivederle nell'app. Le servono solo i video che ha salvato."
+          }
+        }
+      }
+    },
+    "NSSpeechRecognitionUsageDescription" : {
+      "comment" : "Privacy - Speech Recognition Usage Description",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Witness turns recordings into searchable transcripts when you ask it to. Wherever your language allows, this happens on your iPhone and the audio never leaves it."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.witnessrecord.uploadflush</string>
+		<string>com.witnessrecord.sessionmerge</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Witness</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>it</string>
+		<string>es</string>
+		<string>fr</string>
+		<string>de</string>
+	</array>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.13</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.witnessrecord.deeplink</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>witnessrecord</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.witnessrecord.google</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.$(GOOGLE_CLIENT_ID)</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>29</string>
+	<key>DropboxAppKey</key>
+	<string>$(DROPBOX_APP_KEY)</string>
+	<key>GIDClientID</key>
+	<string>$(GOOGLE_CLIENT_ID).apps.googleusercontent.com</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_witness-crew._tcp</string>
+		<string>_witness-crew._udp</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Witness uses the camera to record video documentation of encounters. Video is captured only while you have started a recording.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Witness finds your crew's phones nearby to share the crew list and match clocks, so everyone's recordings line up. Only while the crew screen is open.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your location is embedded in each recording's metadata and chain-of-custody log so footage can be tied to the place it was captured.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Witness records audio together with video so your documentation includes what was said. Audio is captured only during an active recording.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Witness saves a copy of each recording to your photo library so your footage is preserved on the device even if the app is removed, in addition to uploading to the cloud account you connected.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Witness shows you the recordings it saved to your photo library, so you can watch them back in the app. It only needs the videos it saved.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Witness turns recordings into searchable transcripts when you ask it to. Wherever your language allows, this happens on your iPhone and the audio never leaves it.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>processing</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

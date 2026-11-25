@@ -1,0 +1,6 @@
+# Copy to local.properties (gitignored) and fill in.
+sdk.dir=/path/to/Android/sdk
+
+# Your own Dropbox app key (Dropbox App Console, PKCE, redirect URI
+# witnessrecord://dropbox-auth). Leave empty to build without Dropbox.
+DROPBOX_APP_KEY=

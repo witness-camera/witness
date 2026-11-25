@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  The long-press app shortcut, which the assistant can also launch by its
+  label. Lands on the same `witnessrecord://start` deep link every other
+  instant-start path uses.
+
+  Deliberately declares no <capability>. A built-in-intent capability makes
+  Play treat the bundle as an App Actions submission, which demands a separate
+  terms acceptance - and there is no intent in Google's taxonomy that means
+  "document a police stop", so any capability declared here would be claiming
+  to answer queries this app has no business answering.
+-->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="start-recording"
+        android:enabled="true"
+        android:icon="@drawable/ic_record"
+        android:shortcutShortLabel="@string/widget_start_recording"
+        android:shortcutLongLabel="@string/tile_start_recording">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.witnessrecord.app"
+            android:targetClass="com.witnessrecord.app.MainActivity"
+            android:data="witnessrecord://start" />
+    </shortcut>
+</shortcuts>

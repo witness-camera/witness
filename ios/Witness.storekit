@@ -1,0 +1,66 @@
+{
+  "identifier" : "A1B2C3D4",
+  "nonRenewingSubscriptions" : [
+  ],
+  "products" : [
+    {
+      "displayPrice" : "29.99",
+      "familyShareable" : false,
+      "internalID" : "6740012234",
+      "localizations" : [
+        {
+          "description" : "4K, 60 fps, and Apple Log — unlocked once, forever.",
+          "displayName" : "Witness Pro Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.witnessrecord.app.pro.onetime",
+      "referenceName" : "Witness Pro Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "20923771",
+      "localizations" : [
+      ],
+      "name" : "Witness Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+          ],
+          "codeOffers" : [
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6740012233",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Record in 4K, at 60 fps, and in Apple Log.",
+              "displayName" : "Witness Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.witnessrecord.app.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Witness Pro Monthly",
+          "subscriptionGroupID" : "20923771",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

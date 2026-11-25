@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "One tap from the lock screen starts a black-screen recording." : {
+      "extractionState" : "stale"
+    },
+    "Start recording" : {
+
+    },
+    "Start Recording" : {
+
+    },
+    "Start Witness Recording" : {
+      "extractionState" : "stale"
+    },
+    "Tap to begin a witness recording" : {
+
+    },
+    "Witness" : {
+
+    }
+  },
+  "version" : "1.0"
+}

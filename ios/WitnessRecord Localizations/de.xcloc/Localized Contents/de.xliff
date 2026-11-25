@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="WitnessRecord/InfoPlist.xcstrings" source-language="en" target-language="de" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>WitnessRecord</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>WitnessRecord</source>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
+        <source>WitnessRecord uses the camera to record video documentation of encounters. Video is captured only while you have started a recording.</source>
+        <target state="translated">WitnessRecord verwendet die Kamera, um Vorfälle als Videodokumentation aufzuzeichnen. Video wird nur erfasst, während du eine Aufnahme gestartet hast.</target>
+        <note>Privacy - Camera Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysAndWhenInUseUsageDescription" xml:space="preserve">
+        <source>Always access lets WitnessRecord keep logging location while the screen is dark or the app is briefly in the background during a recording, preserving where the footage was captured.</source>
+        <target state="translated">Der Zugriff „Immer“ ermöglicht es WitnessRecord, den Standort weiter zu protokollieren, während der Bildschirm dunkel ist oder sich die App während einer Aufnahme kurzzeitig im Hintergrund befindet, sodass der Aufnahmeort erhalten bleibt.</target>
+        <note>Privacy - Location Always and When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
+        <source>Your location is embedded in each recording's metadata and chain-of-custody log so footage can be tied to the place it was captured.</source>
+        <target state="translated">Dein Standort wird in die Metadaten jeder Aufnahme und das Beweiskettenprotokoll eingebettet, damit das Filmmaterial mit dem Aufnahmeort verknüpft werden kann.</target>
+        <note>Privacy - Location When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSMicrophoneUsageDescription" xml:space="preserve">
+        <source>WitnessRecord records audio together with video so your documentation includes what was said. Audio is captured only during an active recording.</source>
+        <target state="translated">WitnessRecord zeichnet Audio zusammen mit Video auf, damit deine Dokumentation das Gesagte enthält. Audio wird nur während einer aktiven Aufnahme erfasst.</target>
+        <note>Privacy - Microphone Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
+        <source>WitnessRecord saves a copy of each recording to your photo library so your footage is preserved on the device even if the app is removed, in addition to uploading to your Google Drive.</source>
+        <target state="translated">WitnessRecord speichert zusätzlich zum Upload in dein Google Drive eine Kopie jeder Aufnahme in deiner Fotomediathek, damit dein Filmmaterial auf dem Gerät erhalten bleibt, selbst wenn die App entfernt wird.</target>
+        <note>Privacy - Photo Library Additions Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WitnessRecord/Localizable.xcstrings" source-language="en" target-language="de" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
+    </header>
+    <body>
+      <trans-unit id="&#10;&#10;" xml:space="preserve">
+        <source>
+
+</source>
+        <note from="auto-generated">A description of the viewfinder feature.</note>
+      </trans-unit>
+      <trans-unit id=" " xml:space="preserve">
+        <source> </source>
+        <note from="auto-generated">A space.</note>
+      </trans-unit>
+      <trans-unit id=" → " xml:space="preserve">
+        <source> → </source>
+        <note from="auto-generated">A separator between two related concepts.</note>
+      </trans-unit>
+      <trans-unit id="%lld chunk(s) queued for upload" xml:space="preserve">
+        <source>%lld chunk(s) queued for upload</source>
+        <target state="translated">%lld Segment(e) für den Upload in der Warteschlange</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="0.5× ultra-wide" xml:space="preserve">
+        <source>0.5× ultra-wide</source>
+        <target state="translated">0,5× Ultraweitwinkel</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="1× wide" xml:space="preserve">
+        <source>1× wide</source>
+        <target state="translated">1× Weitwinkel</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Account" xml:space="preserve">
+        <source>Account</source>
+        <target state="translated">Konto</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Action Button" xml:space="preserve">
+        <source>Action Button</source>
+        <target state="translated">Action-Button</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Add contact" xml:space="preserve">
+        <source>Add contact</source>
+        <target state="translated">Kontakt hinzufügen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Add someone who'll know" xml:space="preserve">
+        <source>Add someone who'll know</source>
+        <target state="translated">Füge jemanden hinzu, der Bescheid weiß</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Added — they'll be notified once you start recording." xml:space="preserve">
+        <source>Added — they'll be notified once you start recording.</source>
+        <target state="translated">Hinzugefügt — er wird benachrichtigt, sobald du mit der Aufnahme beginnst.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="An emergency contact automatically gets access to your footage as it uploads." xml:space="preserve">
+        <source>An emergency contact automatically gets access to your footage as it uploads.</source>
+        <target state="translated">Ein Notfallkontakt erhält automatisch Zugriff auf deine Aufnahmen, während sie hochgeladen werden.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Auto (0.5× when available)" xml:space="preserve">
+        <source>Auto (0.5× when available)</source>
+        <target state="translated">Automatisch (0,5× wenn verfügbar)</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Camera" xml:space="preserve">
+        <source>Camera</source>
+        <target state="translated">Kamera</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Camera &amp; microphone" xml:space="preserve">
+        <source>Camera &amp; microphone</source>
+        <target state="translated">Kamera und Mikrofon</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Camera or microphone permission denied. Enable both in Settings." xml:space="preserve">
+        <source>Camera or microphone permission denied. Enable both in Settings.</source>
+        <target state="translated">Zugriff auf Kamera oder Mikrofon verweigert. Aktiviere beides in den Einstellungen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Camera setup failed. Check camera permission in Settings." xml:space="preserve">
+        <source>Camera setup failed. Check camera permission in Settings.</source>
+        <target state="translated">Kamera-Einrichtung fehlgeschlagen. Überprüfe die Kameraberechtigung in den Einstellungen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Camera, microphone, and location — used only while recording." xml:space="preserve">
+        <source>Camera, microphone, and location — used only while recording.</source>
+        <target state="translated">Kamera, Mikrofon und Standort — nur während der Aufnahme verwendet.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Combine into one video per camera" xml:space="preserve">
+        <source>Combine into one video per camera</source>
+        <target state="translated">Zu einem Video pro Kamera zusammenfügen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Connect Google Drive" xml:space="preserve">
+        <source>Connect Google Drive</source>
+        <target state="translated">Google Drive verbinden</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Continue" xml:space="preserve">
+        <source>Continue</source>
+        <target state="translated">Weiter</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Create a Google account used only for WitnessRecord, and sign in to it here. Crucially, do not add that account to your iPhone's Settings, the Gmail or Drive apps, or any browser you're signed into. Then there is no way to open that Drive from your phone to delete anything — the account simply isn't reachable through the phone's apps. This app keeps its own private login and offers no way to view or delete the footage." xml:space="preserve">
+        <source>Create a Google account used only for WitnessRecord, and sign in to it here. Crucially, do not add that account to your iPhone's Settings, the Gmail or Drive apps, or any browser you're signed into. Then there is no way to open that Drive from your phone to delete anything — the account simply isn't reachable through the phone's apps. This app keeps its own private login and offers no way to view or delete the footage.</source>
+        <target state="translated">Erstelle ein Google-Konto, das ausschließlich für WitnessRecord verwendet wird, und melde dich hier damit an. Entscheidend ist, dieses Konto nicht zu den Einstellungen deines iPhones, den Gmail- oder Drive-Apps oder einem Browser hinzuzufügen, bei dem du angemeldet bist. Dann gibt es keine Möglichkeit, dieses Drive von deinem Telefon aus zu öffnen, um etwas zu löschen — das Konto ist über die Apps des Telefons schlicht nicht erreichbar. Diese App verwendet ihre eigene private Anmeldung und bietet keine Möglichkeit, die Aufnahmen anzusehen oder zu löschen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Done" xml:space="preserve">
+        <source>Done</source>
+        <target state="translated">Fertig</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Dual camera" xml:space="preserve">
+        <source>Dual camera</source>
+        <target state="translated">Doppelkamera</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Email" xml:space="preserve">
+        <source>Email</source>
+        <target state="translated">E-Mail</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Emergency contacts" xml:space="preserve">
+        <source>Emergency contacts</source>
+        <target state="translated">Notfallkontakte</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Extra backstop (optional)" xml:space="preserve">
+        <source>Extra backstop (optional)</source>
+        <target state="translated">Zusätzliche Absicherung (optional)</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Folder name template" xml:space="preserve">
+        <source>Folder name template</source>
+        <target state="translated">Vorlage für Ordnernamen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Footage uploads to your own Drive as you record — safe even if your phone isn't." xml:space="preserve">
+        <source>Footage uploads to your own Drive as you record — safe even if your phone isn't.</source>
+        <target state="translated">Aufnahmen werden während der Aufnahme in dein eigenes Drive hochgeladen — sicher, selbst wenn dein Telefon es nicht ist.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Get Started" xml:space="preserve">
+        <source>Get Started</source>
+        <target state="translated">Los geht's</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Google Drive" xml:space="preserve">
+        <source>Google Drive</source>
+        <note from="auto-generated">A heading for settings related to uploading recordings to Google Drive.</note>
+      </trans-unit>
+      <trans-unit id="Hashed &amp; time-stamped." xml:space="preserve">
+        <source>Hashed &amp; time-stamped.</source>
+        <target state="translated">Gehasht &amp; mit Zeitstempel.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Have contacts keep their own copy" xml:space="preserve">
+        <source>Have contacts keep their own copy</source>
+        <target state="translated">Lass Kontakte eine eigene Kopie behalten</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="How it works" xml:space="preserve">
+        <source>How it works</source>
+        <target state="translated">So funktioniert's</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Immediately starts a black-screen witness recording that uploads to your Google Drive as it records." xml:space="preserve">
+        <source>Immediately starts a black-screen witness recording that uploads to your Google Drive as it records.</source>
+        <target state="translated">Startet sofort eine Zeugenaufnahme mit schwarzem Bildschirm, die während der Aufnahme in dein Google Drive hochgeladen wird.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Know your rights" xml:space="preserve">
+        <source>Know your rights</source>
+        <target state="translated">Kenne deine Rechte</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Last upload error: %@" xml:space="preserve">
+        <source>Last upload error: %@</source>
+        <target state="translated">Letzter Upload-Fehler: %@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Location" xml:space="preserve">
+        <source>Location</source>
+        <target state="translated">Standort</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Name" xml:space="preserve">
+        <source>Name</source>
+        <target state="translated">Name</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Next" xml:space="preserve">
+        <source>Next</source>
+        <target state="translated">Weiter</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="No Action Button? Use the Lock Screen widget, or say &quot;Hey Siri, start recording.&quot;" xml:space="preserve">
+        <source>No Action Button? Use the Lock Screen widget, or say "Hey Siri, start recording."</source>
+        <target state="translated">Keine Action-Taste? Verwende das Sperrbildschirm-Widget oder sage „Hey Siri, Aufnahme starten“.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="No valid email — won't receive footage" xml:space="preserve">
+        <source>No valid email — won't receive footage</source>
+        <target state="translated">Keine gültige E-Mail — erhält keine Aufnahmen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Not legal advice. Check your local laws, stay safe, and announce you're recording if you can." xml:space="preserve">
+        <source>Not legal advice. Check your local laws, stay safe, and announce you're recording if you can.</source>
+        <target state="translated">Dies ist keine Rechtsberatung. Prüfe deine örtlichen Gesetze, bleib sicher und kündige, wenn möglich, an, dass du aufnimmst.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Not signed in — sign in from the home screen." xml:space="preserve">
+        <source>Not signed in — sign in from the home screen.</source>
+        <target state="translated">Nicht angemeldet — melde dich auf dem Startbildschirm an.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Not supported on this device" xml:space="preserve">
+        <source>Not supported on this device</source>
+        <target state="translated">Auf diesem Gerät nicht unterstützt</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Now press and hold for 1 second" xml:space="preserve">
+        <source>Now press and hold for 1 second</source>
+        <target state="translated">Halte jetzt 1 Sekunde lang gedrückt</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="On-device backup" xml:space="preserve">
+        <source>On-device backup</source>
+        <target state="translated">Backup auf dem Gerät</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Once every small chunk of a session is safely uploaded, WitnessRecord merges them into a single video per camera, uploads that to the session's Drive folder, and then deletes the small chunks — so you get one clean file per camera instead of a folder full of pieces. This never happens until the small chunks are already confirmed in Drive, so nothing is at risk while it runs. Turn this off to keep the individual chunks instead." xml:space="preserve">
+        <source>Once every small chunk of a session is safely uploaded, WitnessRecord merges them into a single video per camera, uploads that to the session's Drive folder, and then deletes the small chunks — so you get one clean file per camera instead of a folder full of pieces. This never happens until the small chunks are already confirmed in Drive, so nothing is at risk while it runs. Turn this off to keep the individual chunks instead.</source>
+        <target state="translated">Sobald alle kleinen Segmente einer Sitzung sicher hochgeladen sind, fügt WitnessRecord sie zu einem einzigen Video pro Kamera zusammen, lädt es in den Drive-Ordner der Sitzung hoch und löscht dann die kleinen Segmente — so erhältst du eine saubere Datei pro Kamera statt eines Ordners voller Teile. Dies geschieht erst, wenn die kleinen Segmente bereits in Drive bestätigt sind, sodass währenddessen nichts riskiert wird. Schalte dies aus, um stattdessen die einzelnen Segmente zu behalten.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="One quick practice" xml:space="preserve">
+        <source>One quick practice</source>
+        <target state="translated">Eine kurze Übung</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="PRACTICE" xml:space="preserve">
+        <source>PRACTICE</source>
+        <target state="translated">ÜBUNG</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Photos" xml:space="preserve">
+        <source>Photos</source>
+        <target state="translated">Fotos</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Photos backup keeps a copy on-device, independent of Drive." xml:space="preserve">
+        <source>Photos backup keeps a copy on-device, independent of Drive.</source>
+        <target state="translated">Das Fotos-Backup speichert eine Kopie auf dem Gerät, unabhängig von Drive.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Placeholders: {date}, {time}, {location}, {session}. Each recording session's Drive subfolder is named from this template. Only applies to sessions started after you change it — existing folders keep their names." xml:space="preserve">
+        <source>Placeholders: {date}, {time}, {location}, {session}. Each recording session's Drive subfolder is named from this template. Only applies to sessions started after you change it — existing folders keep their names.</source>
+        <target state="translated">Platzhalter: {date}, {time}, {location}, {session}. Der Drive-Unterordner jeder Aufnahmesitzung wird nach dieser Vorlage benannt. Gilt nur für Sitzungen, die nach der Änderung gestartet werden — bestehende Ordner behalten ihren Namen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Preserve footage automatically — even if your phone is taken." xml:space="preserve">
+        <source>Preserve footage automatically — even if your phone is taken.</source>
+        <target state="translated">Bewahrt Aufnahmen automatisch — selbst wenn dir das Telefon abgenommen wird.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Preview" xml:space="preserve">
+        <source>Preview</source>
+        <target state="translated">Vorschau</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Protect footage" xml:space="preserve">
+        <source>Protect footage</source>
+        <target state="translated">Aufnahmen schützen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Protect footage from deletion" xml:space="preserve">
+        <source>Protect footage from deletion</source>
+        <target state="translated">Aufnahmen vor Löschung schützen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Rear lens, currently %@ times. Tap to switch." xml:space="preserve">
+        <source>Rear lens, currently %@ times. Tap to switch.</source>
+        <target state="translated">Rückkamera-Objektiv, derzeit %@-fach. Zum Wechseln tippen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Record front camera too" xml:space="preserve">
+        <source>Record front camera too</source>
+        <target state="translated">Auch mit der Frontkamera aufnehmen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Recording in public is legal in most countries — but rules on distance, audio, and interference vary widely by jurisdiction." xml:space="preserve">
+        <source>Recording in public is legal in most countries — but rules on distance, audio, and interference vary widely by jurisdiction.</source>
+        <target state="translated">Aufnahmen in der Öffentlichkeit sind in den meisten Ländern legal — aber die Regeln zu Abstand, Ton und Einmischung sind je nach Rechtsraum sehr unterschiedlich.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Recording — hold to stop" xml:space="preserve">
+        <source>Recording — hold to stop</source>
+        <target state="translated">Aufnahme läuft — halten zum Stoppen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Recording — press and hold to stop" xml:space="preserve">
+        <source>Recording — press and hold to stop</source>
+        <target state="translated">Aufnahme läuft — gedrückt halten zum Stoppen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Recordings start at the 0.5× ultra-wide lens when the device supports it, otherwise 1×." xml:space="preserve">
+        <source>Recordings start at the 0.5× ultra-wide lens when the device supports it, otherwise 1×.</source>
+        <target state="translated">Aufnahmen starten mit dem 0,5×-Ultraweitwinkelobjektiv, wenn das Gerät dies unterstützt, andernfalls mit 1×.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Recordings start at the 0.5× ultra-wide lens. In dual-camera mode, if the device can't run 0.5× with the front camera, it records a single 0.5× camera rather than switching to 1×." xml:space="preserve">
+        <source>Recordings start at the 0.5× ultra-wide lens. In dual-camera mode, if the device can't run 0.5× with the front camera, it records a single 0.5× camera rather than switching to 1×.</source>
+        <target state="translated">Aufnahmen starten mit dem 0,5×-Ultraweitwinkelobjektiv. Im Doppelkamera-Modus wird, falls das Gerät 0,5× nicht mit der Frontkamera nutzen kann, mit einer einzelnen 0,5×-Kamera aufgenommen, anstatt auf 1× zu wechseln.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Recordings start at the standard 1× lens." xml:space="preserve">
+        <source>Recordings start at the standard 1× lens.</source>
+        <target state="translated">Aufnahmen starten mit dem Standard-1×-Objektiv.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Records the front (selfie) camera at the same time as the rear one, producing two synchronized videos per session. Uses more battery and may warm the device during long recordings." xml:space="preserve">
+        <source>Records the front (selfie) camera at the same time as the rear one, producing two synchronized videos per session. Uses more battery and may warm the device during long recordings.</source>
+        <target state="translated">Nimmt gleichzeitig mit der Front- (Selfie-) und der Rückkamera auf und erzeugt zwei synchronisierte Videos pro Sitzung. Verbraucht mehr Akku und kann das Gerät bei langen Aufnahmen erwärmen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Reset to default" xml:space="preserve">
+        <source>Reset to default</source>
+        <target state="translated">Auf Standard zurücksetzen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Save recordings to Photos" xml:space="preserve">
+        <source>Save recordings to Photos</source>
+        <target state="translated">Aufnahmen in Fotos speichern</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Saves one stitched video per camera per recording session to your Photos library, as backup independent of Google Drive. If iCloud Photos is enabled, it also syncs there. Turn this off to keep recordings out of your camera roll — Drive upload is unaffected." xml:space="preserve">
+        <source>Saves one stitched video per camera per recording session to your Photos library, as backup independent of Google Drive. If iCloud Photos is enabled, it also syncs there. Turn this off to keep recordings out of your camera roll — Drive upload is unaffected.</source>
+        <target state="translated">Speichert pro Kamera und Aufnahmesitzung ein zusammengefügtes Video in deiner Fotomediathek, als von Google Drive unabhängiges Backup. Falls iCloud-Fotos aktiviert ist, wird auch dorthin synchronisiert. Schalte dies aus, um Aufnahmen aus deinem Kamera-Roll herauszuhalten — der Drive-Upload ist davon nicht betroffen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Screen goes black while recording.&#10;Triple-tap, then hold the stop icon to end." xml:space="preserve">
+        <source>Screen goes black while recording.
+Triple-tap, then hold the stop icon to end.</source>
+        <target state="translated">Der Bildschirm wird während der Aufnahme schwarz.
+Tippe dreimal, halte dann das Stopp-Symbol gedrückt, um zu beenden.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Screen goes black." xml:space="preserve">
+        <source>Screen goes black.</source>
+        <target state="translated">Der Bildschirm wird schwarz.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Session folder naming" xml:space="preserve">
+        <source>Session folder naming</source>
+        <target state="translated">Sitzungsordner-Benennung</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Settings" xml:space="preserve">
+        <source>Settings</source>
+        <target state="translated">Einstellungen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sharing with an emergency contact does not, by itself, give them a separate copy: it grants them a view of your file. If your copy is deleted, their view disappears with it (though deleted files sit in Drive's Trash, recoverable for ~30 days, unless the Trash is also emptied)." xml:space="preserve">
+        <source>Sharing with an emergency contact does not, by itself, give them a separate copy: it grants them a view of your file. If your copy is deleted, their view disappears with it (though deleted files sit in Drive's Trash, recoverable for ~30 days, unless the Trash is also emptied).</source>
+        <target state="translated">Das Teilen mit einem Notfallkontakt gibt ihm nicht automatisch eine eigene Kopie: Es gewährt ihm lediglich eine Ansicht deiner Datei. Wird deine Kopie gelöscht, verschwindet auch seine Ansicht (gelöschte Dateien liegen jedoch im Drive-Papierkorb und sind rund 30 Tage lang wiederherstellbar, sofern der Papierkorb nicht ebenfalls geleert wird).</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Shortcut" xml:space="preserve">
+        <source>Shortcut</source>
+        <target state="translated">Kurzbefehl</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show viewfinder while recording" xml:space="preserve">
+        <source>Show viewfinder while recording</source>
+        <target state="translated">Sucher während der Aufnahme anzeigen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sign in to Google Drive" xml:space="preserve">
+        <source>Sign in to Google Drive</source>
+        <target state="translated">Bei Google Drive anmelden</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sign in with Google" xml:space="preserve">
+        <source>Sign in with Google</source>
+        <target state="translated">Mit Google anmelden</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sign out" xml:space="preserve">
+        <source>Sign out</source>
+        <target state="translated">Abmelden</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Skip" xml:space="preserve">
+        <source>Skip</source>
+        <target state="translated">Überspringen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Start Recording" xml:space="preserve">
+        <source>Start Recording</source>
+        <target state="translated">Aufnahme starten</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Start Witness Recording" xml:space="preserve">
+        <source>Start Witness Recording</source>
+        <target state="translated">Zeugenaufnahme starten</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Start in one press" xml:space="preserve">
+        <source>Start in one press</source>
+        <target state="translated">Mit einem Tastendruck starten</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Start practice" xml:space="preserve">
+        <source>Start practice</source>
+        <target state="translated">Übung starten</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Starting lens" xml:space="preserve">
+        <source>Starting lens</source>
+        <target state="translated">Start-Objektiv</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Stop Recording" xml:space="preserve">
+        <source>Stop Recording</source>
+        <target state="translated">Aufnahme stoppen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Stop Witness Recording" xml:space="preserve">
+        <source>Stop Witness Recording</source>
+        <target state="translated">Zeugenaufnahme stoppen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Stops the active witness recording." xml:space="preserve">
+        <source>Stops the active witness recording.</source>
+        <target state="translated">Stoppt die aktive Zeugenaufnahme.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Storage low (%lld MB free). Recording continues; uploaded chunks are deleted automatically to free space." xml:space="preserve">
+        <source>Storage low (%lld MB free). Recording continues; uploaded chunks are deleted automatically to free space.</source>
+        <target state="translated">Wenig Speicherplatz (%lld MB frei). Die Aufnahme wird fortgesetzt; hochgeladene Segmente werden automatisch gelöscht, um Platz freizugeben.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Strongest protection (optional)" xml:space="preserve">
+        <source>Strongest protection (optional)</source>
+        <target state="translated">Stärkster Schutz (optional)</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="That's it" xml:space="preserve">
+        <source>That's it</source>
+        <target state="translated">Das war's</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The risk" xml:space="preserve">
+        <source>The risk</source>
+        <target state="translated">Das Risiko</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="These steps are optional. If you'd rather use your everyday Google account, WitnessRecord still works exactly the same — this only affects how hard it is for someone with your phone to delete footage after the fact." xml:space="preserve">
+        <source>These steps are optional. If you'd rather use your everyday Google account, WitnessRecord still works exactly the same — this only affects how hard it is for someone with your phone to delete footage after the fact.</source>
+        <target state="translated">Diese Schritte sind optional. Wenn du lieber dein alltägliches Google-Konto verwendest, funktioniert WitnessRecord trotzdem genauso — dies wirkt sich nur darauf aus, wie schwer es für jemanden mit deinem Telefon ist, Aufnahmen im Nachhinein zu löschen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="This device can't record both cameras simultaneously, so only the rear camera is used." xml:space="preserve">
+        <source>This device can't record both cameras simultaneously, so only the rear camera is used.</source>
+        <target state="translated">Dieses Gerät kann nicht beide Kameras gleichzeitig aufnehmen, daher wird nur die Rückkamera verwendet.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="This is what recording looks like" xml:space="preserve">
+        <source>This is what recording looks like</source>
+        <target state="translated">So sieht eine Aufnahme aus</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Triple-tap anywhere to reveal the controls" xml:space="preserve">
+        <source>Triple-tap anywhere to reveal the controls</source>
+        <target state="translated">Tippe irgendwo dreimal, um die Steuerelemente anzuzeigen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Triple-tap, then press and hold. Same gesture, every time you actually record." xml:space="preserve">
+        <source>Triple-tap, then press and hold. Same gesture, every time you actually record.</source>
+        <target state="translated">Dreimal tippen, dann gedrückt halten. Dieselbe Geste, jedes Mal, wenn du wirklich aufnimmst.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Turn on access" xml:space="preserve">
+        <source>Turn on access</source>
+        <target state="translated">Zugriff aktivieren</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="US rights guide (ACLU)" xml:space="preserve">
+        <source>US rights guide (ACLU)</source>
+        <target state="translated">US-Rechteleitfaden (ACLU)</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Until you sign in, footage is kept safely on this device only." xml:space="preserve">
+        <source>Until you sign in, footage is kept safely on this device only.</source>
+        <target state="translated">Bis du dich anmeldest, werden Aufnahmen sicher nur auf diesem Gerät gespeichert.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Until you sign in, footage stays only on this device." xml:space="preserve">
+        <source>Until you sign in, footage stays only on this device.</source>
+        <target state="translated">Bis du dich anmeldest, bleiben Aufnahmen nur auf diesem Gerät.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Upload folder name" xml:space="preserve">
+        <source>Upload folder name</source>
+        <target state="translated">Name des Upload-Ordners</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Uploading to Drive as %@" xml:space="preserve">
+        <source>Uploading to Drive as %@</source>
+        <target state="translated">Upload zu Drive als %@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Uploads live, every 15s." xml:space="preserve">
+        <source>Uploads live, every 15s.</source>
+        <target state="translated">Live-Upload, alle 15 Sekunden.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Use a dedicated Google account" xml:space="preserve">
+        <source>Use a dedicated Google account</source>
+        <target state="translated">Verwende ein eigenes Google-Konto</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="What this app does" xml:space="preserve">
+        <source>What this app does</source>
+        <target state="translated">Was diese App tut</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="When a recording starts uploading, each contact is granted view access to that recording's Google Drive folder and notified by Google Drive. They can watch footage arrive live — access that survives even if your phone is taken. Contacts are only shared with when you record." xml:space="preserve">
+        <source>When a recording starts uploading, each contact is granted view access to that recording's Google Drive folder and notified by Google Drive. They can watch footage arrive live — access that survives even if your phone is taken. Contacts are only shared with when you record.</source>
+        <target state="translated">Sobald eine Aufnahme hochgeladen wird, erhält jeder Kontakt Lesezugriff auf den Google-Drive-Ordner dieser Aufnahme und wird von Google Drive benachrichtigt. Sie können zusehen, wie das Filmmaterial live eintrifft — ein Zugriff, der auch bestehen bleibt, wenn dir dein Telefon abgenommen wird. Kontakte werden nur einbezogen, wenn du aufnimmst.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="When an emergency contact receives the shared folder, they can open it and choose “Make a copy” to save the footage into their own Drive. That copy belongs to them and cannot be deleted from your phone or account." xml:space="preserve">
+        <source>When an emergency contact receives the shared folder, they can open it and choose “Make a copy” to save the footage into their own Drive. That copy belongs to them and cannot be deleted from your phone or account.</source>
+        <target state="translated">Wenn ein Notfallkontakt den freigegebenen Ordner erhält, kann er ihn öffnen und „Kopie erstellen“ wählen, um die Aufnahmen in sein eigenes Drive zu speichern. Diese Kopie gehört ihm und kann nicht von deinem Telefon oder Konto aus gelöscht werden.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="When you record for real, the screen goes black. Stopping takes a specific gesture — let's practice it now, so it's second nature later." xml:space="preserve">
+        <source>When you record for real, the screen goes black. Stopping takes a specific gesture — let's practice it now, so it's second nature later.</source>
+        <target state="translated">Wenn du wirklich aufnimmst, wird der Bildschirm schwarz. Zum Stoppen ist eine bestimmte Geste nötig — lass uns das jetzt üben, damit es später zur Gewohnheit wird.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="With the viewfinder on you can switch 0.5×↔1× live while recording, with no gap in the footage." xml:space="preserve">
+        <source>With the viewfinder on you can switch 0.5×↔1× live while recording, with no gap in the footage.</source>
+        <target state="translated">Bei aktiviertem Sucher kannst du während der Aufnahme live zwischen 0,5× und 1× wechseln, ohne Lücke im Filmmaterial.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="With the viewfinder on, recording starts with a live preview (rear full-screen, front in a corner) instead of a black screen. You can also toggle it any time while recording. Takes effect on your next recording." xml:space="preserve">
+        <source>With the viewfinder on, recording starts with a live preview (rear full-screen, front in a corner) instead of a black screen. You can also toggle it any time while recording. Takes effect on your next recording.</source>
+        <target state="translated">Bei aktiviertem Sucher beginnt die Aufnahme mit einer Live-Vorschau (Rückkamera im Vollbild, Frontkamera in einer Ecke) statt mit einem schwarzen Bildschirm. Du kannst dies jederzeit während der Aufnahme umschalten. Wird bei deiner nächsten Aufnahme wirksam.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="With the viewfinder on, recording starts with a live preview instead of a black screen. You can also toggle it any time while recording." xml:space="preserve">
+        <source>With the viewfinder on, recording starts with a live preview instead of a black screen. You can also toggle it any time while recording.</source>
+        <target state="translated">Bei aktiviertem Sucher beginnt die Aufnahme mit einer Live-Vorschau statt mit einem schwarzen Bildschirm. Du kannst dies auch jederzeit während der Aufnahme umschalten.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="WitnessRecord never deletes your recordings from Drive itself. But anyone holding your unlocked phone could delete them through the Google Drive app or website. Learn how to guard against that." xml:space="preserve">
+        <source>WitnessRecord never deletes your recordings from Drive itself. But anyone holding your unlocked phone could delete them through the Google Drive app or website. Learn how to guard against that.</source>
+        <target state="translated">WitnessRecord löscht deine Aufnahmen niemals selbst aus Drive. Aber jeder, der dein entsperrtes Telefon in der Hand hat, könnte sie über die Google-Drive-App oder -Website löschen. Erfahre, wie du dich davor schützen kannst.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="WitnessRecord never deletes your recordings — there is no delete button anywhere in this app, and it only ever adds files to your Drive." xml:space="preserve">
+        <source>WitnessRecord never deletes your recordings — there is no delete button anywhere in this app, and it only ever adds files to your Drive.</source>
+        <target state="translated">WitnessRecord löscht deine Aufnahmen niemals — es gibt in dieser App nirgends eine Löschschaltfläche, sie fügt deinem Drive nur Dateien hinzu.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="You can add more anytime in Settings." xml:space="preserve">
+        <source>You can add more anytime in Settings.</source>
+        <target state="translated">Du kannst jederzeit weitere in den Einstellungen hinzufügen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Your footage uploads to your own Google Drive. In Google Drive, the account owner can always delete their files. So if someone has your unlocked phone and can open the Google Drive app, the Gmail app, or drive.google.com in a browser, they can delete the recordings there — and deleting them removes access for your emergency contacts too." xml:space="preserve">
+        <source>Your footage uploads to your own Google Drive. In Google Drive, the account owner can always delete their files. So if someone has your unlocked phone and can open the Google Drive app, the Gmail app, or drive.google.com in a browser, they can delete the recordings there — and deleting them removes access for your emergency contacts too.</source>
+        <target state="translated">Deine Aufnahmen werden in dein eigenes Google Drive hochgeladen. In Google Drive kann der Kontoinhaber seine Dateien immer löschen. Wenn also jemand dein entsperrtes Telefon hat und die Google-Drive-App, die Gmail-App oder drive.google.com in einem Browser öffnen kann, kann er die Aufnahmen dort löschen — und das Löschen entzieht auch deinen Notfallkontakten den Zugriff.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="for civilians" xml:space="preserve">
+        <source>for civilians</source>
+        <target state="translated">für Bürger</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="iPhone 15 Pro or newer? Bind the Action Button:" xml:space="preserve">
+        <source>iPhone 15 Pro or newer? Bind the Action Button:</source>
+        <target state="translated">iPhone 15 Pro oder neuer? Weise die Action-Taste zu:</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WitnessRecordWidget/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>WitnessRecord Widget</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>WitnessRecordWidget</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WitnessRecordWidget/Localizable.xcstrings" source-language="en" target-language="de" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.6" build-num="17F113"/>
+    </header>
+    <body>
+      <trans-unit id="One tap from the lock screen starts a black-screen recording." xml:space="preserve">
+        <source>One tap from the lock screen starts a black-screen recording.</source>
+        <target state="translated">Ein Tipp auf dem Sperrbildschirm startet eine Aufnahme mit schwarzem Bildschirm.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Start Recording" xml:space="preserve">
+        <source>Start Recording</source>
+        <target state="translated">Aufnahme starten</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Start Witness Recording" xml:space="preserve">
+        <source>Start Witness Recording</source>
+        <target state="translated">Zeugenaufnahme starten</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Start recording" xml:space="preserve">
+        <source>Start recording</source>
+        <target state="translated">Aufnahme starten</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Tap to begin a witness recording" xml:space="preserve">
+        <source>Tap to begin a witness recording</source>
+        <target state="translated">Tippen, um eine Zeugenaufnahme zu starten</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Witness" xml:space="preserve">
+        <source>Witness</source>
+        <target state="translated">Zeuge</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

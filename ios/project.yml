@@ -1,0 +1,162 @@
+name: WitnessRecord
+options:
+  bundleIdPrefix: com.witnessrecord
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+
+packages:
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    from: 7.1.0
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: 9F652A2DMG
+
+targets:
+  WitnessRecord:
+    type: application
+    platform: iOS
+    configFiles:
+      Debug: Config/Secrets.xcconfig
+      Release: Config/Secrets.xcconfig
+    sources:
+      - WitnessRecord
+    dependencies:
+      - package: GoogleSignIn
+        product: GoogleSignIn
+      - target: WitnessRecordWidget
+        embed: true
+    # Crew sync uses the app's public CloudKit database (see CrewCloud).
+    entitlements:
+      path: WitnessRecord/WitnessRecord.entitlements
+      properties:
+        com.apple.developer.icloud-container-identifiers:
+          - iCloud.com.witnessrecord.app
+        com.apple.developer.icloud-services:
+          - CloudKit
+    info:
+      path: WitnessRecord/Info.plist
+      properties:
+        CFBundleDisplayName: Witness
+        CFBundleShortVersionString: &marketingVersion "1.1.13"
+        CFBundleVersion: &buildNumber "29"
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations:
+          - en
+          - it
+          - es
+          - fr
+          - de
+        UILaunchScreen: {}
+        UIRequiresFullScreen: true
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSCameraUsageDescription: >-
+          Witness uses the camera to record video documentation of
+          encounters. Video is captured only while you have started a
+          recording.
+        NSMicrophoneUsageDescription: >-
+          Witness records audio together with video so your
+          documentation includes what was said. Audio is captured only
+          during an active recording.
+        NSLocationWhenInUseUsageDescription: >-
+          Your location is embedded in each recording's metadata and
+          chain-of-custody log so footage can be tied to the place it was
+          captured.
+        NSSpeechRecognitionUsageDescription: >-
+          Witness turns recordings into searchable transcripts when you ask it to. Wherever your language allows, this happens on your iPhone and the audio never leaves it.
+        NSPhotoLibraryUsageDescription: >-
+          Witness shows you the recordings it saved to your photo library, so you can watch them back in the app. It only needs the videos it saved.
+        NSPhotoLibraryAddUsageDescription: >-
+          Witness saves a copy of each recording to your photo library so
+          your footage is preserved on the device even if the app is
+          removed, in addition to uploading to the cloud account you
+          connected.
+        NSLocalNetworkUsageDescription: >-
+          Witness finds your crew's phones nearby to share the crew list and
+          match clocks, so everyone's recordings line up. Only while the crew
+          screen is open.
+        NSBonjourServices:
+          - _witness-crew._tcp
+          - _witness-crew._udp
+        UIBackgroundModes:
+          - processing
+        BGTaskSchedulerPermittedIdentifiers:
+          - com.witnessrecord.uploadflush
+          - com.witnessrecord.sessionmerge
+        # Lets the Files app reach footage still held by the app (chunks
+        # waiting to upload, staged copies waiting to merge).
+        UIFileSharingEnabled: true
+        LSSupportsOpeningDocumentsInPlace: true
+        CFBundleURLTypes:
+          - CFBundleURLName: com.witnessrecord.deeplink
+            CFBundleURLSchemes:
+              - witnessrecord
+          - CFBundleURLName: com.witnessrecord.google
+            CFBundleURLSchemes:
+              - com.googleusercontent.apps.$(GOOGLE_CLIENT_ID)
+        GIDClientID: $(GOOGLE_CLIENT_ID).apps.googleusercontent.com
+        # Public OAuth client identifier, not a secret: it ships in the binary
+        # by design and authorises nothing on its own. PKCE is what protects
+        # the flow. The Dropbox app *secret* is deliberately absent.
+        DropboxAppKey: $(DROPBOX_APP_KEY)
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.witnessrecord.app
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_OBJC_BRIDGING_HEADER: WitnessRecord/Services/WitnessRecord-Bridging-Header.h
+
+  WitnessRecordWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - WitnessRecordWidget
+    info:
+      path: WitnessRecordWidget/Info.plist
+      properties:
+        CFBundleDisplayName: Witness Widget
+        CFBundleShortVersionString: *marketingVersion
+        CFBundleVersion: *buildNumber
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.witnessrecord.app.widget
+        TARGETED_DEVICE_FAMILY: "1"
+    dependencies:
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+
+# Declared explicitly rather than left to the scheme Xcode auto-creates on
+# open: that one lives in xcuserdata and is wiped by `xcodegen generate`,
+# which silently breaks every command-line build until someone reopens the
+# project in Xcode. Declaring it here also makes the archive configuration
+# reproducible instead of implicit.
+schemes:
+  WitnessRecord:
+    build:
+      targets:
+        WitnessRecord: all
+    run:
+      config: Debug
+      # Lets the paywall be exercised locally with simulated purchases,
+      # before the subscription exists in App Store Connect.
+      storeKitConfiguration: Witness.storekit
+    test:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
